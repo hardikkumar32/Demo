@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaints View Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        .complaint-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .complaint-container h2 {
+            text-align: center;
+        }
+        .complaint {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .complaint p {
+            margin: 5px 0;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="complaint-container">
+        <h2>Complaints List</h2>
+        <div class="complaint">
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> john@example.com</p>
+            <p><strong>Subject:</strong> Defective Product</p>
+            <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo id felis vehicula interdum. Fusce non augue odio.</p>
+            <p><strong>Status:</strong> Open</p>
+            <p><strong>Submitted At:</strong> 2023-08-01 12:34:56</p>
+        </div>
+        <div class="complaint">
+            <p><strong>Name:</strong> Jane Smith</p>
+            <p><strong>Email:</strong> jane@example.com</p>
+            <p><strong>Subject:</strong> Delayed Delivery</p>
+            <p><strong>Description:</strong> Sed at est euismod, tristique odio ac, dignissim nisi. Mauris ultrices, augue sit amet volutpat dapibus.</p>
+            <p><strong>Status:</strong> Closed</p>
+            <p><strong>Submitted At:</strong> 2023-08-02 09:15:00</p>
+        </div>
+        <!-- Add more complaints as needed -->
+
+        <a class="back-link" href="complaints.php">Back to Complaint List</a>
+    </div>
+</body>
+</html>
